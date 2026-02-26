@@ -1,5 +1,5 @@
 # CODSOFT
-# ⚡ Taskes: Advanced Python To-Do Application
+# Task 1: Taskes: Advanced Python To-Do Application
 
 Most beginner Python To-Do lists are simple terminal scripts that lose all their data the second you close them. **ProTasker** is different. 
 
