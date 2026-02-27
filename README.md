@@ -18,3 +18,42 @@ Built with a focus on modern UI design and robust data persistence, ProTasker is
 * **Language:** Python 3.x
 * **GUI Framework:** CustomTkinter
 * **Database:** SQLite3 (Built-in standard library)
+
+# Task 2: The Pure-Python Calculator
+
+A robust, lightweight command-line calculator built entirely with pure Python. This project demonstrates clean architecture, functional programming concepts, and defensive programming by handling user errors gracefully without relying on any external libraries.
+
+## ✨ Features
+
+* **Zero Dependencies:** Built using 100% pure Python. No `math`, `operator`, or third-party libraries required.
+* **Functional Dispatch Table:** Uses a dictionary to map operator symbols (`+`, `-`, `*`, `/`) directly to functions, eliminating the need for long, messy `if/elif/else` statements.
+* **Robust Error Handling:** * Catches `ValueError` via a dedicated helper function to ensure only valid numbers are processed.
+  * Explicitly handles `ZeroDivisionError` to prevent the program from crashing if a user tries to divide by zero.
+* **Smart Number Formatting:** Automatically formats the output to display as an integer if there are no decimals (e.g., shows `5` instead of `5.0`), keeping the interface clean.
+* **DRY Principle:** Encapsulates the `try-except` input loop within a reusable `get_valid_float()` function to keep the main execution loop clean and readable.
+
+## 🛠️ Code Structure
+
+The code is organized into three distinct logical layers:
+
+1. **Math Operations:** Standalone functions (`add`, `subtract`, `multiply`, `divide`) that handle the core arithmetic.
+2. **Input Validation:** The `get_valid_float` function continuously prompts the user until valid numerical data is entered.
+3. **Execution Loop:** The `main` function utilizes a dictionary (`operations`) to instantly execute the chosen mathematical operation in $O(1)$ lookup time.
+
+## 🚀 How to Run
+
+1. Ensure you have Python installed on your system.
+2. Save the code to a file named `calculator.py`.
+3. Open your terminal or command prompt.
+4. Navigate to the folder containing the file.
+5. Run the script using the following command:
+
+```bash
+python calculator.py
+
+## 👨‍💻 Author
+
+**Krushnal Patil**
+*AIML Student & Python Enthusiast*
+
+---
