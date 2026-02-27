@@ -48,8 +48,7 @@ The code is organized into three distinct logical layers:
 4. Navigate to the folder containing the file.
 5. Run the script using the following command:
 
-   ```bash
-   python password_generator.py
+
 
 # Task 3: Custom Complexity Password Generator
 
@@ -75,7 +74,6 @@ Since it requires no external modules, running the script is incredibly simple.
 4. Run the following command:
 
 ```bash
-python calculator.py
 
 
 ## 👨‍💻 Author
