@@ -18,13 +18,3 @@ Built with a focus on modern UI design and robust data persistence, ProTasker is
 * **Language:** Python 3.x
 * **GUI Framework:** CustomTkinter
 * **Database:** SQLite3 (Built-in standard library)
-
-## 🚀 Installation & Setup
-
-1. **Clone or download the repository:**
-   Ensure `app.py` is in your working directory.
-
-2. **Install the required UI library:**
-   Open your terminal or command prompt and run:
-   ```bash
-   python -m pip install customtkinter
