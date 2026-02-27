@@ -48,8 +48,35 @@ The code is organized into three distinct logical layers:
 4. Navigate to the folder containing the file.
 5. Run the script using the following command:
 
+   ```bash
+   python password_generator.py
+
+# Task 3: Custom Complexity Password Generator
+
+A sleek, lightweight, and crash-proof Python command-line utility for generating passwords on the fly. 
+
+Unlike basic password generators that leave character selection entirely to chance, this tool uses smart logic to **mathematically guarantee** that your required character types are included in the final password.
+
+## ✨ Features
+
+* **Zero Dependencies:** Written entirely in pure Python using built-in standard libraries (`random`, `string`). No `pip install` required—just download and run.
+* **Smart Character Guarantees:** If you ask for letters, numbers, and symbols, the script physically ensures at least one of each is included before filling the rest randomly.
+* **Foolproof Input Handling:** Built-in `try-except` loops mean the program won't crash if you accidentally type letters instead of numbers. It will gently prompt you to try again.
+* **Edge-Case Ready:** Handles extremely short passwords, long passwords, and even gracefully handles a requested length of `0`.
+* **Pattern Obfuscation:** The final password list is shuffled before being displayed, ensuring that attackers cannot guess the order of the guaranteed character types.
+
+## 🚀 How to Run
+
+Since it requires no external modules, running the script is incredibly simple.
+
+1. Make sure you have Python installed on your system.
+2. Open your terminal or command prompt.
+3. Navigate to the folder where the script is saved.
+4. Run the following command:
+
 ```bash
 python calculator.py
+
 
 ## 👨‍💻 Author
 
